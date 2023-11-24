@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task2.css">
+    <title>Custom Chocolate Bundle</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+          <img src="images/logor.png" alt="Meals" />x 
+        </div>
+        <!-- navigation items -->
+        <ul>
+          <li class="class"><a href="#home">Home</a></li>
+          <li class="class"><a href="#contact">Contact us</a></li>
+          <li class="class"><a href="#Client-section">Services</a></li>
+          <li class="class"><a href="#center">About us</a></li>
+        </ul>
+      </nav>
+<div class="custom-bundle">
+    <h2>Select Chocolates for Your Custom Pack</h2>
+
+    <div class="chocolates-list">
+        <!-- Chocolate items go here -->
+        <div class="chocolate-item" data-name="Milk Chocolate" data-price="2.50">
+            <img src="milk-chocolate.jpg" alt="Milk Chocolate">
+            <p>Milk Chocolate</p>
+        </div>
+        <div class="chocolate-item" data-name="Dark Chocolate" data-price="3.00">
+            <img src="dark-chocolate.jpg" alt="Dark Chocolate">
+            <p>Dark Chocolate</p>
+        </div>
+        <!-- Add more chocolate items as needed -->
+    </div>
+
+    <div class="selected-chocolates">
+        <h3>Your Custom Pack</h3>
+        <ul id="selectedList"></ul>
+        <p>Total Price: $<span id="totalPrice">0.00</span></p>
+    </div>
+</div>
+
+<script src="Task2.js"></script>
+</body>
+</html>

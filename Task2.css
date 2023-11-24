@@ -1,0 +1,70 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+}
+#navbar ul li a{
+    display: block;
+    color: black;
+    padding: 3px 30px;
+    text-decoration: none;
+    border: radius 20px;
+}
+#navbar ul a:hover{
+    color: black;
+    background-color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-bundle {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.chocolates-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.chocolate-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.chocolate-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.selected-chocolates {
+    margin-top: 20px;
+}
+
+.selected-chocolates h3 {
+    margin-bottom: 10px;
+}
+
+.selected-chocolates ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.selected-chocolates li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+ 

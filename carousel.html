@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carousel.css">
+    <title>Featured Products Carousel</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+          <img src="images/logor.png" alt="Meals" />x 
+        </div>
+        <!-- navigation items -->
+        <ul>
+          <li class="class"><a href="#home">Home</a></li>
+          <li class="class"><a href="#contact">Contact us</a></li>
+          <li class="class"><a href="#Client-section">Services</a></li>
+          <li class="class"><a href="#center">About us</a></li>
+        </ul>
+      </nav>
+
+<div class="carousel-container">
+    <div id="carousel" class="carousel">
+        <!-- Featured product items go here -->
+        <div class="carousel-item">
+            <!-- Product content goes here -->
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Description of Product 1.</p>
+        </div>
+        <div class="carousel-item">
+            <!-- Product content goes here -->
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>Description of Product 2.</p>
+        </div>
+        <!-- Add more product items as needed -->
+    </div>
+    
+    <button id="prevBtn" onclick="prevSlide()">❮</button>
+    <button id="nextBtn" onclick="nextSlide()">❯</button>
+</div>
+
+<script src="carousel.js"></script>
+</body>
+</html>
